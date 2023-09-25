@@ -1,11 +1,11 @@
 <?php
 
-namespace Illuminate\Config;
+namespace WPWhales\Config;
 
 use ArrayAccess;
-use Illuminate\Contracts\Config\Repository as ConfigContract;
-use Illuminate\Support\Arr;
-use Illuminate\Support\Traits\Macroable;
+use WPWhales\Contracts\Config\Repository as ConfigContract;
+use WPWhales\Support\Arr;
+use WPWhales\Support\Traits\Macroable;
 
 class Repository implements ArrayAccess, ConfigContract
 {

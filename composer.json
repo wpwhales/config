@@ -1,5 +1,5 @@
 {
-    "name": "illuminate/config",
+    "name": "wpwhales/config",
     "description": "The Illuminate Config package.",
     "license": "MIT",
     "homepage": "https://laravel.com",
@@ -15,12 +15,12 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/collections": "^11.0",
-        "illuminate/contracts": "^11.0"
+        "wpwhales/collections": "dev-master",
+        "wpwhales/contracts": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Config\\": ""
+            "WPWhales\\Config\\": ""
         }
     },
     "extra": {
